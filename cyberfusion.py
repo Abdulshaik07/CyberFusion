@@ -62,7 +62,7 @@ def banner():
 
 # Argument parser Function
 def parseArgs():
-    p = argparse.ArgumentParser(description="AORT - All in One Recon Tool")
+    p = argparse.ArgumentParser(description="CyberFsuion - All in One Recon Tool")
     p.add_argument("-d", "--domain", help="domain to search its subdomains", required=True)
     p.add_argument("-o", "--output", help="file to store the scan output", required=False)
     p.add_argument("-m", "--mail", help="try to enumerate mail servers", action='store_true', required=False)
